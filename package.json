@@ -1,0 +1,26 @@
+{
+  "name": "saman_chat",
+  "version": "1.0.0",
+  "description": "servidor que inicia un chat interno para la plataforma saman",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/David-programer/saman_chat.git"
+  },
+  "author": "Cristian David & Juan David",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/David-programer/saman_chat/issues"
+  },
+  "homepage": "https://github.com/David-programer/saman_chat#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.20",
+    "socket.io": "^4.5.2"
+  }
+}
