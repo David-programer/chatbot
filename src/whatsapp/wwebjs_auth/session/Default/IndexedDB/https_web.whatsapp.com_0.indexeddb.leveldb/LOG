@@ -1,0 +1,26 @@
+2022/10/13-17:50:17.053 7cfc Reusing MANIFEST C:\Users\cristian.velasquez\Desktop\chat_node_wb\src\whatsapp\wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/10/13-17:50:17.054 7cfc Recovering log #2364
+2022/10/13-17:50:17.077 7cfc Reusing old log C:\Users\cristian.velasquez\Desktop\chat_node_wb\src\whatsapp\wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/002364.log 
+2022/10/13-17:50:28.045 5108 Compacting 1@1 + 9@2 files
+2022/10/13-17:50:28.115 5108 Generated table #2378@1: 2942 keys, 2152377 bytes
+2022/10/13-17:50:28.183 5108 Generated table #2379@1: 3856 keys, 2159985 bytes
+2022/10/13-17:50:28.233 5108 Generated table #2380@1: 3849 keys, 2161263 bytes
+2022/10/13-17:50:28.273 5108 Generated table #2381@1: 3524 keys, 2155270 bytes
+2022/10/13-17:50:28.380 5108 Generated table #2382@1: 32768 keys, 2197937 bytes
+2022/10/13-17:50:28.501 5108 Generated table #2383@1: 29285 keys, 2255904 bytes
+2022/10/13-17:50:28.569 5108 Generated table #2384@1: 28411 keys, 2254449 bytes
+2022/10/13-17:50:28.702 5108 Generated table #2385@1: 29170 keys, 2249272 bytes
+2022/10/13-17:50:28.781 5108 Generated table #2386@1: 20323 keys, 2187961 bytes
+2022/10/13-17:50:28.783 5108 Generated table #2387@1: 18 keys, 2431 bytes
+2022/10/13-17:50:28.783 5108 Compacted 1@1 + 9@2 files => 19776849 bytes
+2022/10/13-17:50:28.784 5108 compacted to: files[ 0 1 35 0 0 0 0 ]
+2022/10/13-17:50:28.784 5108 Delete type=2 #2345
+2022/10/13-17:50:28.784 5108 Delete type=2 #2346
+2022/10/13-17:50:28.784 5108 Delete type=2 #2347
+2022/10/13-17:50:28.784 5108 Delete type=2 #2348
+2022/10/13-17:50:28.784 5108 Delete type=2 #2349
+2022/10/13-17:50:28.784 5108 Delete type=2 #2350
+2022/10/13-17:50:28.784 5108 Delete type=2 #2351
+2022/10/13-17:50:28.785 5108 Delete type=2 #2352
+2022/10/13-17:50:28.785 5108 Delete type=2 #2353
+2022/10/13-17:50:28.785 5108 Delete type=2 #2367

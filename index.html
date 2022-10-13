@@ -28,14 +28,23 @@
         var form = document.getElementById('form');
         var input = document.getElementById('input');
 
+        socket.emit('join', {to: '34', from: '33', id_room: '1664821637706'});
+
+
         form.addEventListener('submit', function(e) {
             e.preventDefault();
             if (input.value) {
 
               let body = {
-                message : input.value,
-                user_emit: 33,
-                user_receiving: 34
+                from: 33,
+                to: 34,
+                id_room: "1664821637706",
+                conversation : [
+                  {
+                    message: input.value,
+                    author: 33
+                  }
+                ] 
               }
 
             socket.emit('private message', body);
@@ -43,11 +52,21 @@
             }
         });
 
-        socket.on('private message', function(msg) {
-            var item = document.createElement('li');
-            item.textContent = msg.message;
-            messages.appendChild(item);
-            window.scrollTo(0, document.body.scrollHeight);
+        socket.on('33', function(msg) {
+            console.log(msg)
+            // var item = document.createElement('li');
+            // item.textContent = msg.message;
+            // console.log('oe')
+            // messages.appendChild(item);
+            // window.scrollTo(0, document.body.scrollHeight);
         });
+
+        // socket.on('33', function(msg) {
+        //     messages.appendChild(item);
+        //     window.scrollTo(0, document.body.scrollHeight);
+        // });
+
     </script>
 </html>
+
+<!-- enviar mensaje y obligatorio colocar información y que se recaude en jade -->

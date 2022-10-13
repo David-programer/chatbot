@@ -1,0 +1,34 @@
+2022/10/13-17:49:02.963 54fc Reusing MANIFEST C:\Users\cristian.velasquez\Desktop\chat_node_wb\src\whatsapp\wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/10/13-17:49:02.965 54fc Recovering log #2339
+2022/10/13-17:49:03.088 54fc Reusing old log C:\Users\cristian.velasquez\Desktop\chat_node_wb\src\whatsapp\wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/002339.log 
+2022/10/13-17:49:16.418 8030 Level-0 table #2365: started
+2022/10/13-17:49:16.456 8030 Level-0 table #2365: 1266908 bytes OK
+2022/10/13-17:49:16.459 8030 Delete type=0 #2339
+2022/10/13-17:49:16.757 270 Compacting 1@0 + 1@1 files
+2022/10/13-17:49:16.832 270 Generated table #2366@0: 19289 keys, 521896 bytes
+2022/10/13-17:49:16.836 270 Generated table #2367@0: 118 keys, 10161 bytes
+2022/10/13-17:49:16.839 270 Generated table #2368@0: 8 keys, 628 bytes
+2022/10/13-17:49:16.839 270 Compacted 1@0 + 1@1 files => 532685 bytes
+2022/10/13-17:49:16.840 270 compacted to: files[ 0 3 34 0 0 0 0 ]
+2022/10/13-17:49:19.185 54fc Compacting 1@1 + 8@2 files
+2022/10/13-17:49:19.283 54fc Generated table #2369@1: 28790 keys, 2269592 bytes
+2022/10/13-17:49:19.378 54fc Generated table #2370@1: 23206 keys, 2285027 bytes
+2022/10/13-17:49:19.458 54fc Generated table #2371@1: 23085 keys, 2289108 bytes
+2022/10/13-17:49:19.566 54fc Generated table #2372@1: 22632 keys, 2282955 bytes
+2022/10/13-17:49:19.654 54fc Generated table #2373@1: 21089 keys, 2320340 bytes
+2022/10/13-17:49:19.764 54fc Generated table #2374@1: 43984 keys, 2305466 bytes
+2022/10/13-17:49:19.900 54fc Generated table #2375@1: 95194 keys, 2312551 bytes
+2022/10/13-17:49:19.927 54fc Generated table #2376@1: 7140 keys, 471782 bytes
+2022/10/13-17:49:19.927 54fc Compacted 1@1 + 8@2 files => 16536821 bytes
+2022/10/13-17:49:19.928 54fc compacted to: files[ 0 2 34 0 0 0 0 ]
+2022/10/13-17:49:19.929 54fc Delete type=2 #2344
+2022/10/13-17:49:19.929 54fc Delete type=2 #2355
+2022/10/13-17:49:19.929 54fc Delete type=2 #2356
+2022/10/13-17:49:19.929 54fc Delete type=2 #2357
+2022/10/13-17:49:19.929 54fc Delete type=2 #2358
+2022/10/13-17:49:19.929 54fc Delete type=2 #2359
+2022/10/13-17:49:19.929 54fc Delete type=2 #2360
+2022/10/13-17:49:19.929 54fc Delete type=2 #2361
+2022/10/13-17:49:19.929 54fc Delete type=2 #2362
+2022/10/13-17:49:19.929 54fc Delete type=2 #2365
+2022/10/13-17:49:19.929 54fc Delete type=2 #2366
