@@ -1,6 +1,6 @@
 const path = require('path');
 const qrcode = require('qrcode-terminal');
-const reportes = require('./commands/reportes.command');
+const bot = require('../commands/bot.command');
 const { Client, LocalAuth } = require('whatsapp-web.js');
 const client = new Client( {
     authStrategy: new LocalAuth({dataPath: path.join(__dirname, 'wwebjs_auth/')})
@@ -13,9 +13,9 @@ client.on('qr', qr => { qrcode.generate(qr, {small: true});});
 client.on('ready', () => { console.log('\x1b[32m%s\x1b[0m','Whatsapp is ready')});
 
 client.on('message', (message) => {
-    reportes(message, client); 
+    bot({message, client, mode: 'Whatsapp'}); 
+    
     return
-    message.reply('Comando no reconocido')
 
 //   if(message.body === '1') {
 //     message_old = message.body;

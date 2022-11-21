@@ -1,3 +1,2 @@
-2022/10/13-17:50:16.136 6264 Reusing MANIFEST C:\Users\cristian.velasquez\Desktop\chat_node_wb\src\whatsapp\wwebjs_auth\session\Default\Platform Notifications/MANIFEST-000001
-2022/10/13-17:50:16.137 6264 Recovering log #3
-2022/10/13-17:50:16.137 6264 Reusing old log C:\Users\cristian.velasquez\Desktop\chat_node_wb\src\whatsapp\wwebjs_auth\session\Default\Platform Notifications/000003.log 
+2022/10/28-18:02:08.285 2b04 Creating DB C:\Users\cristian.velasquez\Desktop\chat server\src\whatsapp\wwebjs_auth\session\Default\Platform Notifications since it was missing.
+2022/10/28-18:02:08.298 2b04 Reusing MANIFEST C:\Users\cristian.velasquez\Desktop\chat server\src\whatsapp\wwebjs_auth\session\Default\Platform Notifications/MANIFEST-000001

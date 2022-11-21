@@ -3,7 +3,6 @@ const cors = require('cors');
 const path = require('path');
 const express = require('express');
 const app = express();
-const axios = require('axios');
 const server = http.createServer(app);
 const { Server } = require("socket.io");
 const bodyParser = require('body-parser');
@@ -25,6 +24,8 @@ const { mongoose } = require('./src/database');
 
 //routers
 app.get('/', (req, res) => {res.sendFile(__dirname + '/index.html');});
+app.use('/bot', require(path.join(__dirname, 'src', 'routers', 'bot.route.js')));
+app.use('/user', require(path.join(__dirname, 'src', 'routers', 'user.route.js')));
 app.use('/chat', require(path.join(__dirname, 'src', 'routers', 'chat.route.js')));
 
 //static files
@@ -48,29 +49,23 @@ app.listen(3001, ()=>{
   console.log('\x1b[31m%s\x1b[0m',`Api rest escuchando en el puerto http://10.0.30.8:3001`);
 })
 
-// const instance = axios.create({
-//   headers: {
-//     Authorization: 'Bearer 4893|igpT0kcEKIbUKXQVIks17NcCHtfdAZOmoO6ewBtm'
-//   }
-// });
+// const consultar_colillas_anuladas = (colilla, message)=>{
+//   colilla = colilla.split('-');
 
-const consultar_colillas_anuladas = (colilla, message)=>{
-  colilla = colilla.split('-');
-
-  axios.post(`${process.env.URL_BACKEND}/visado/consultaestadocolilla`, {
-    serie: colilla[0],
-    numcolilla: colilla[1],
-    user_id: 3
-  })
-  .then(function (response) {
-    console.log(response);
-    message.reply(`
-    Cantidad: ${response.data.cantidad} \n
-    Estado: ${response.data.estado} \n
-    Data: ${response.data.datos}
-    `)
-  })
-  .catch(function (error) {
-    console.log(error);
-  });  
-}
+//   axios.post(`${process.env.URL_BACKEND}/visado/consultaestadocolilla`, {
+//     serie: colilla[0],
+//     numcolilla: colilla[1],
+//     user_id: 3
+//   })
+//   .then(function (response) {
+//     console.log(response);
+//     message.reply(`
+//     Cantidad: ${response.data.cantidad} \n
+//     Estado: ${response.data.estado} \n
+//     Data: ${response.data.datos}
+//     `)
+//   })
+//   .catch(function (error) {
+//     console.log(error);
+//   });  
+// }

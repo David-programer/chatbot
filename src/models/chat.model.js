@@ -6,6 +6,7 @@ module.exports = new model('chat', new Schema({
     conversation: [
         {
             note: String,
+            answer : Object,
             message: {type: String},
             author: {type: Number, required: true},
             viewed: {type: Boolean, default: false},

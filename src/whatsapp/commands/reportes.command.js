@@ -1,6 +1,6 @@
 // const chat = require('../models/chat.model');
 // const user = require('../models/user.model');
-let command_old;
+let command_old = {};
 const fs = require('fs');
 const path = require('path');
 const axios = require('axios');

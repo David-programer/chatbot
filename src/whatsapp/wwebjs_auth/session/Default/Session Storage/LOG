@@ -1,3 +1,2 @@
-2022/10/13-17:50:16.627 5108 Reusing MANIFEST C:\Users\cristian.velasquez\Desktop\chat_node_wb\src\whatsapp\wwebjs_auth\session\Default\Session Storage/MANIFEST-000001
-2022/10/13-17:50:16.629 5108 Recovering log #3
-2022/10/13-17:50:16.630 5108 Reusing old log C:\Users\cristian.velasquez\Desktop\chat_node_wb\src\whatsapp\wwebjs_auth\session\Default\Session Storage/000003.log 
+2022/10/28-18:01:50.009 2c48 Creating DB C:\Users\cristian.velasquez\Desktop\chat server\src\whatsapp\wwebjs_auth\session\Default\Session Storage since it was missing.
+2022/10/28-18:01:50.022 2c48 Reusing MANIFEST C:\Users\cristian.velasquez\Desktop\chat server\src\whatsapp\wwebjs_auth\session\Default\Session Storage/MANIFEST-000001
