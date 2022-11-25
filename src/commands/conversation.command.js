@@ -46,7 +46,7 @@ module.exports = {
         };
 
         const conversation_private = async (data)=>{
-            if(data.to == '98'){ await send_message(data); await bot({io,data, send_message})}
+            if(data.to == '103'){ await send_message(data); await bot({io,data, send_message})}
             else{
                 let response = await send_message(data)
                 io.emit(data.to, {...response, type: 'receive message'});

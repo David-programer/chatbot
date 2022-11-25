@@ -1,7 +1,7 @@
 {
   "name": "saman_chat",
   "version": "1.0.0",
-  "description": "servidor que inicia un chat interno para la plataforma saman",
+  "description": "Servidor que inicia un chat interno para la plataforma saman",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -29,6 +29,6 @@
     "nodemon": "^2.0.20",
     "qrcode-terminal": "^0.12.0",
     "socket.io": "^4.5.2",
-    "whatsapp-web.js": "^1.18.2"
+    "whatsapp-web.js": "^1.18.3"
   }
 }
